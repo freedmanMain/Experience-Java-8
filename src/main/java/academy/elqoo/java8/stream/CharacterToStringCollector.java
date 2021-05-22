@@ -15,6 +15,7 @@ import java.util.stream.Collector;
 public class CharacterToStringCollector implements Collector<Character, StringBuilder, String> {
     @Override
     public Supplier<StringBuilder> supplier() {
+
         return null;
     }
 
